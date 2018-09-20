@@ -1,0 +1,27 @@
+{
+  "name": "@softboxlab/gandalf-lint-vue",
+  "version": "0.0.0",
+  "description": "Your bad code shall not pass (Vue version)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftboxLab/gandalf-lint-vue.git"
+  },
+  "keywords": [
+    "eslint",
+    "vue"
+  ],
+  "author": "Lucas Vilaboim <lucas@vilaboim.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoftboxLab/gandalf-lint-vue/issues"
+  },
+  "homepage": "https://github.com/SoftboxLab/gandalf-lint-vue#readme",
+  "dependencies": {
+    "eslint": "^5.6.0",
+    "eslint-plugin-vue": "^5.0.0-beta.3"
+  }
+}
