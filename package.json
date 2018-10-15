@@ -1,5 +1,5 @@
 {
-  "name": "@softboxlab/gandalf-lint-vue",
+  "name": "@softboxlab/eslint-config-gandalf-lint-vue",
   "version": "0.0.0",
   "description": "Your bad code shall not pass (Vue version)",
   "main": "index.js",
