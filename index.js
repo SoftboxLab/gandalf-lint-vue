@@ -1,9 +1,9 @@
 module.exports = {
-  extends: [
-    'plugin:vue/recommended'
-  ],
   plugins: [
     'eslint-plugin-vue'
+  ],
+  extends: [
+    'plugin:vue/recommended'
   ],
   parserOptions: {
     'parser': 'babel-eslint',
@@ -15,6 +15,17 @@ module.exports = {
       }
     }],
     'vue/no-spaces-around-equal-signs-in-attribute': 'error',
-    'vue/component-name-in-template-casing': 'error'
+    'vue/component-name-in-template-casing': [
+      'error',
+      'PascalCase',
+      {
+        ignores: [
+          'transition',
+          'transition-group',
+          'component',
+          'keep-alive'
+        ]
+      }
+    ]
   }
 }
