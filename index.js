@@ -1,9 +1,10 @@
 module.exports = {
+  extends: [
+    'eslint-config-gandalf-lint',
+    'plugin:vue/recommended'
+  ].map(require.resolve),
   plugins: [
     'eslint-plugin-vue'
-  ],
-  extends: [
-    'plugin:vue/recommended'
   ],
   parserOptions: {
     'parser': 'babel-eslint',
