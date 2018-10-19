@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "plugin:vue/recommended",
+    "@softboxlab/eslint-config-gandalf-lint-vue"
+  ]
+}

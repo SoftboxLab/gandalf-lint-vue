@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
-    'plugin:vue/recommended',
-    'eslint-config-gandalf-lint'
+    '@softboxlab/eslint-config-gandalf-lint'
   ].map(require.resolve),
   plugins: [
     'eslint-plugin-vue'
