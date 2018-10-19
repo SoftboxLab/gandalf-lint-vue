@@ -26,6 +26,7 @@
   "homepage": "https://github.com/SoftboxLab/gandalf-lint-vue#readme",
   "dependencies": {
     "@softboxlab/eslint-config-gandalf-lint": "0.0.11",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.3.0",
     "eslint-plugin-vue": "^4.7.1"
   }
 }
