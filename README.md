@@ -1,13 +1,13 @@
 # gandalf-lint-vue
 
 <p align="center">
-	<img src="https://img00.deviantart.net/51e6/i/2004/144/1/b/you_shall_not_pass.jpg"/><br/>
-	image source: <a href="https://www.deviantart.com/captaind/art/you-shall-not-pass-7505473">Deviantart - CaptainD</a>
+	<img src="https://media.giphy.com/media/njYrp176NQsHS/giphy.gif"/><br/>
+	image source: <a href="https://giphy.com/gifs/lotr-gandalf-lord-of-the-rings-njYrp176NQsHS">Giphy</a>
 </p>
 
 
 <h3 align="center" style="font-weight: bold;">
-  <b>BAD REACT CODE SHALL NOT PASS!</b>
+  <b>BAD VUE CODE SHALL NOT PASS!</b>
 </h3>
 
 ## Install
@@ -15,12 +15,12 @@ Install the most powerful linter of the middle-earth (and its dependencies):
 
 Dependencies via NPM:
 ```bash
-npm install --save-dev @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint
+npm install --save-dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint
 ```
 
 or via yarn:
 ```bash
-yarn add --dev @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint
+yarn add --dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint
 ```
 
 ## Configure
@@ -28,9 +28,11 @@ Call the white wizard by creating a `.eslintrc` file on your root project and wr
 ```javascript
 {
   "extends": [
-    "plugin:vue/recommended",
     "@softboxlab/eslint-config-gandalf-lint-vue"
-  ]
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  }
 }
 ```
 
@@ -59,6 +61,12 @@ yarn glint
 
 **If you don't fell like creating any scripts, feel free to have your files linted on the fly by your IDE (did you remember to install the `eslint` plugin on your IDE?)**
 
+---
+
+<p align="center">
+	<img src="https://media.giphy.com/media/TcdpZwYDPlWXC/giphy.gif"/><br/>
+  Gandalf approves
+</p>
 
 
 # License
