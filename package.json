@@ -1,6 +1,6 @@
 {
   "name": "@softboxlab/eslint-config-gandalf-lint-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Your bad code shall not pass (Vue version)",
   "main": "index.js",
   "scripts": {
@@ -25,8 +25,7 @@
   },
   "homepage": "https://github.com/SoftboxLab/gandalf-lint-vue#readme",
   "dependencies": {
-    "@softboxlab/eslint-config-gandalf-lint": "0.0.11",
-    "eslint-plugin-sort-imports-es6-autofix": "^0.3.0",
+    "@softboxlab/eslint-config-gandalf-lint": "^0.2.1",
     "eslint-plugin-vue": "^4.7.1"
   }
 }
