@@ -15,13 +15,20 @@ Install the most powerful linter of the middle-earth (and its dependencies):
 
 Dependencies via NPM:
 ```bash
-npm install --save-dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint
+npm install --save-dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint eslint-plugin-vue@next
 ```
 
 or via yarn:
 ```bash
-yarn add --dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint
+yarn add --dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint eslint-plugin-vue@next
 ```
+
+## Requirements
+
+- [ESLint](http://eslint.org/) `^5.0.0`.
+- [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) `^5.0.0`.
+- [gandalf-lint](https://github.com/SoftboxLab/gandalf-lint) `^0.2.1`.
+- Node.js `>=6.5.0`
 
 ## Configure
 Call the white wizard by creating a `.eslintrc` file on your root project and writing in it:
