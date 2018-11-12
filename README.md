@@ -1,8 +1,7 @@
 # gandalf-lint-vue
 
 <p align="center">
-	<img src="https://media.giphy.com/media/njYrp176NQsHS/giphy.gif"/><br/>
-	image source: <a href="https://giphy.com/gifs/lotr-gandalf-lord-of-the-rings-njYrp176NQsHS">Giphy</a>
+	<img src="https://media.giphy.com/media/njYrp176NQsHS/giphy.gif"/>
 </p>
 
 
@@ -49,7 +48,7 @@ Remember to add the `eslint` plugin on your favorite IDE, like this one: [ESLint
 If you want you can create a script on your `package.json` file like so:
 ```json
 "scripts": {
-  "glint": "./node_modules/.bin/eslint ./{YOUR_PROJECT}/*.js"
+  "glint": "eslint {YOUR_SOURCE_FOLDER} --ext .js,.vue"
 }
 ```
 
@@ -63,6 +62,10 @@ or using yarn:
 ```bash
 yarn glint
 ```
+
+## Tips
+
+**To ignore some files from being linted just add them to a [.eslintignore](https://eslint.org/docs/user-guide/configuring#eslintignore) file**
 
 ## Autorun? Automatic lint?
 
