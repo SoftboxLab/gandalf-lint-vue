@@ -3,9 +3,6 @@ module.exports = {
     '@softboxlab/eslint-config-gandalf-lint',
     'plugin:vue/recommended'
   ],
-  plugins: [
-    'eslint-plugin-vue'
-  ],
   parserOptions: {
     'parser': 'babel-eslint',
   },

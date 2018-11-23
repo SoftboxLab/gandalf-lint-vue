@@ -1,8 +1,7 @@
 # gandalf-lint-vue
 
 <p align="center">
-	<img src="https://media.giphy.com/media/njYrp176NQsHS/giphy.gif"/><br/>
-	image source: <a href="https://giphy.com/gifs/lotr-gandalf-lord-of-the-rings-njYrp176NQsHS">Giphy</a>
+	<img src="https://media.giphy.com/media/njYrp176NQsHS/giphy.gif"/>
 </p>
 
 
@@ -15,13 +14,20 @@ Install the most powerful linter of the middle-earth (and its dependencies):
 
 Dependencies via NPM:
 ```bash
-npm install --save-dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint
+npm install --save-dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint eslint-plugin-vue@next
 ```
 
 or via yarn:
 ```bash
-yarn add --dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint
+yarn add --dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint eslint-plugin-vue@next
 ```
+
+## Requirements
+
+- [ESLint](http://eslint.org/) `^5.0.0`.
+- [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) `^5.0.0`.
+- [gandalf-lint](https://github.com/SoftboxLab/gandalf-lint) `^0.2.1`.
+- Node.js `>=6.5.0`
 
 ## Configure
 Call the white wizard by creating a `.eslintrc` file on your root project and writing in it:
@@ -42,7 +48,7 @@ Remember to add the `eslint` plugin on your favorite IDE, like this one: [ESLint
 If you want you can create a script on your `package.json` file like so:
 ```json
 "scripts": {
-  "glint": "./node_modules/.bin/eslint ./{YOUR_PROJECT}/*.js"
+  "glint": "eslint {YOUR_SOURCE_FOLDER} --ext .js,.vue"
 }
 ```
 
@@ -56,6 +62,10 @@ or using yarn:
 ```bash
 yarn glint
 ```
+
+## Tips
+
+**To ignore some files from being linted just add them to a [.eslintignore](https://eslint.org/docs/user-guide/configuring#eslintignore) file**
 
 ## Autorun? Automatic lint?
 
