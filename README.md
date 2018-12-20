@@ -1,7 +1,7 @@
 # gandalf-lint-vue
 
 <p align="center">
-	<img src="https://media.giphy.com/media/njYrp176NQsHS/giphy.gif"/>
+	<img src="https://media.giphy.com/media/8abAbOrQ9rvLG/giphy.gif" />
 </p>
 
 
@@ -14,12 +14,12 @@ Install the most powerful linter of the middle-earth (and its dependencies):
 
 Dependencies via NPM:
 ```bash
-npm install --save-dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint eslint-plugin-vue@next
+npm install --save-dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-eslint eslint-plugin-vue
 ```
 
 or via yarn:
 ```bash
-yarn add --dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-lint eslint-plugin-vue@next
+yarn add --dev @softboxlab/eslint-config-gandalf-lint @softboxlab/eslint-config-gandalf-lint-vue eslint babel-eslint eslint-plugin-vue
 ```
 
 ## Requirements
