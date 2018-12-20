@@ -21,7 +21,9 @@ module.exports = {
           'transition',
           'transition-group',
           'component',
-          'keep-alive'
+          'keep-alive',
+          'router-view',
+          'router-link'
         ]
       }
     ]
