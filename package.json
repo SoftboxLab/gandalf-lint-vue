@@ -1,6 +1,6 @@
 {
   "name": "@softboxlab/eslint-config-gandalf-lint-vue",
-  "version": "0.2.1",
+  "version": "0.3.1",
   "description": "Your bad code shall not pass (Vue version)",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
   "homepage": "https://github.com/SoftboxLab/gandalf-lint-vue#readme",
   "peerDependencies": {
     "@softboxlab/eslint-config-gandalf-lint": "^0.2.1",
-    "eslint-plugin-vue": "^5.0.0-beta.3"
+    "eslint-plugin-vue": "^5.0.0"
   }
 }
