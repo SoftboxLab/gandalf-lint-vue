@@ -1,3 +1,9 @@
+![npm](https://img.shields.io/npm/v/@softboxlab/eslint-config-gandalf-lint-vue)
+![build](https://img.shields.io/travis/SoftboxLab/gandalf-lint-vue)
+![size](https://img.shields.io/bundlephobia/min/@softboxlab/eslint-config-gandalf-lint-vue)
+![dependencies](https://img.shields.io/david/peer/SoftboxLab/gandalf-lint-vue)
+![license](https://img.shields.io/github/license/SoftboxLab/gandalf-lint-vue)
+
 # gandalf-lint-vue
 
 <p align="center">
